@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.body-container {
+  margin: 0 auto;
+  width: 90%;
+  height: 290px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left-nav-container {
+  width: 30%;
+  height: 100%;
+  margin-right: 20px;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #e2e8f0;
+}
+
+.nav-bar-heading {
+  color: #475569;
+  font-size: 14px;
+}
+
+.ul-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.li-item {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.content-container {
+  width: 35%;
+  height: 100%;
+  margin-right: 20px;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f1f5f9;
+}
+
+.content-heading {
+  color: #475569;
+  font-size: 14px;
+}
+
+.content-para {
+  color: #64748b;
+  font-size: 16px;
+}
+
+.right-nav-container {
+  width: 30%;
+  height: 100%;
+  margin-right: 20px;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #e2e8f0;
+}
+
+.li-item2 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-width: 1px;
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 10px;
+}

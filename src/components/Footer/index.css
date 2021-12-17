@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.footer-container {
+  margin: 0 auto;
+  width: 90%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2e8f0;
+  margin-top: 20px;
+}
+
+.footer-heading {
+  color: #475569;
+  font-size: 35px;
+}
